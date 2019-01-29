@@ -19,9 +19,11 @@ class SubscriptionItem extends Component {
   render() {
     return (
       <div class="subscription_box">
-        <div class="subscription_box_title">{this.props.subscription.name}</div>
+        <div class="subscription_image_div">
+          <img class="subscription_image" src={require(`./static/` + this.props.subscription.image)}/>
+        </div>
+        {/* <div class="subscription_box_title">{this.props.subscription.name}</div> */}
         <SubscriptionInfo subscription={this.props.subscription}/>
-        <img class="subsciption_image" src={require(`./static/hulu.jpg`)}/>
       </div>
     );
   }
@@ -61,7 +63,7 @@ class App extends Component {
     console.log(this.state.subscriptions);
     return (
       <div>
-        <div style={{fontSize: 60 + 'px'}}>Manage Subscriptions</div>
+        <div class="page_title">Manage Subscriptions</div>
         <SubscriptionTable subscriptions={this.state.subscriptions}/>
       </div>
     );

@@ -37,7 +37,7 @@
   width: 200px;
   height: 200px;
   margin: 10px;
-  padding-left: 10px;
+  padding: 10px;
   color: white;
   float: left;
   font-size: 18px;
@@ -48,32 +48,53 @@
 }
 
 .subscription_box_price {
+  margin-top: 5px;
 }
 
 .subscription_box_days_expiring {
-  color: rgb(0, 255, 242);
+  color: rgb(150, 212, 236);
   font-weight: bold;
 }
 
 .subscription_box_days {
-
+  margin-top: 5px;
 }
 
 .Button {
-  background-color: cyan;
+  background-color: rgb(150, 212, 236);
   border-radius: 2px;
   border: none;
   color: rgb(226, 65, 44);
+  font-size: 20px;
+  margin-top: 5px;
 }
 
 .Button:hover {
   cursor: pointer;
-  background-color: rgb(135, 235, 235);
+  background-color:rgb(119, 203, 236);;
   color: rgb(224, 111, 96);
+  font-size: 20px;
 }
 
-.subsciption_image {
+.subscription_image_div {
+  height: 50px;
+  width: 190px;
+  background-color: white;
+  padding: 5px;
+  border-radius: 3px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  margin-bottom: 10px;
+}
+
+.subscription_image {
   max-height: 50px;
-  max-width: 50px;
-  margin-top: 10px;
+  max-width: 180px;
+}
+
+.page_title {
+  margin-left: 60px;
+  font-size: 80px;
+  color: rgb(226, 65, 44);
 }
