@@ -32,13 +32,13 @@
 }
 
 .subscription_box {
-  background-color: rgb(226, 65, 44);
+  background-color: #ffcc00;
   border-radius: 3px;
   width: 200px;
   height: 200px;
   margin: 10px;
   padding: 10px;
-  color: white;
+  color: #414141;
   float: left;
   font-size: 18px;
 }
@@ -48,7 +48,7 @@
 }
 
 .subscription_box_days_expiring {
-  color: rgb(150, 212, 236);
+  color: #1f1f1f;
   font-weight: bold;
 }
 
@@ -60,7 +60,7 @@
   background-color: rgb(150, 212, 236);
   border-radius: 2px;
   border: none;
-  color: rgb(226, 65, 44);
+  color: #414141;
   font-size: 20px;
   margin-top: 5px;
 }
@@ -68,14 +68,14 @@
 .Button:hover {
   cursor: pointer;
   background-color:rgb(119, 203, 236);;
-  color: rgb(224, 111, 96);
+  color: #1f1f1f;
   font-size: 20px;
 }
 
 .subscription_image_div {
   height: 50px;
   width: 190px;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   padding: 5px;
   border-radius: 3px;
   display: flex;
@@ -90,14 +90,9 @@
 }
 
 .page_title {
-  margin-left: 0px;
+  margin-left: 10px;
   font-size: 80px;
-  color: rgb(226, 65, 44);
-}
-
-.subscription_table {
-  
-  background-color: pink;
+  color: #ffcc00;
 }
 
 .summary {
@@ -107,12 +102,13 @@
   height: 200px;
   margin: 10px;
   padding: 10px;
-  color: rgb(218, 131, 120);
+  color: #414141;
   float: left;
   font-size: 22px;
   vertical-align: middle;
 }
 
 anualcost {
-  color: rgb(226, 65, 44);
+  font-weight: bold;
+  color: #1f1f1f;
 }

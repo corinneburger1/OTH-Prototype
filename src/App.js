@@ -85,9 +85,13 @@ class App extends Component {
 
   render() {
     console.log(this.state.subscriptions);
+    document.body.style = 'background: #414141;';
+
     return (
-      <div>
-        <div class="page_title">Manage Subscriptions</div>
+      <div class="page">
+        <div class="page_title">
+          Manage Subscriptions
+        </div>
         <SubscriptionTable subscriptions={this.state.subscriptions}/>
         <SubscriptionSummary subscriptions={this.state.subscriptions}/>
       </div>
