@@ -30,3 +30,50 @@
     transform: rotate(360deg);
   }
 }
+
+.subscription_box {
+  background-color: rgb(226, 65, 44);
+  border-radius: 3px;
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  padding-left: 10px;
+  color: white;
+  float: left;
+  font-size: 18px;
+}
+
+.subscription_box_title {
+  font-size: 30px;
+}
+
+.subscription_box_price {
+}
+
+.subscription_box_days_expiring {
+  color: rgb(0, 255, 242);
+  font-weight: bold;
+}
+
+.subscription_box_days {
+
+}
+
+.Button {
+  background-color: cyan;
+  border-radius: 2px;
+  border: none;
+  color: rgb(226, 65, 44);
+}
+
+.Button:hover {
+  cursor: pointer;
+  background-color: rgb(135, 235, 235);
+  color: rgb(224, 111, 96);
+}
+
+.subsciption_image {
+  max-height: 50px;
+  max-width: 50px;
+  margin-top: 10px;
+}

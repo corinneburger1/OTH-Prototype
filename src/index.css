@@ -12,3 +12,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+subscription_box {
+  background-color: lightcoral;
+  border-radius: 3px;
+  color: darkcyan;
+}
