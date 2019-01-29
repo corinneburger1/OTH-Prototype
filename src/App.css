@@ -43,10 +43,6 @@
   font-size: 18px;
 }
 
-.subscription_box_title {
-  font-size: 30px;
-}
-
 .subscription_box_price {
   margin-top: 5px;
 }
@@ -82,9 +78,9 @@
   background-color: white;
   padding: 5px;
   border-radius: 3px;
-  display:flex;
-  align-items:center;
-  justify-content:center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin-bottom: 10px;
 }
 
@@ -94,7 +90,29 @@
 }
 
 .page_title {
-  margin-left: 60px;
+  margin-left: 0px;
   font-size: 80px;
+  color: rgb(226, 65, 44);
+}
+
+.subscription_table {
+  
+  background-color: pink;
+}
+
+.summary {
+  background-color: rgb(150, 212, 236);
+  border-radius: 3px;
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  padding: 10px;
+  color: rgb(218, 131, 120);
+  float: left;
+  font-size: 22px;
+  vertical-align: middle;
+}
+
+anualcost {
   color: rgb(226, 65, 44);
 }
